@@ -47,7 +47,7 @@ void w(int *a)
         }
         for(k=0;k<4;k++)
         {
-            if((temp[k]!=temp[k+1]&&temp[k]!=0)||k==4)
+            if((temp[k]!=temp[k+1]&&temp[k]!=0)||k==3)
             {
                 re[l]=temp[k];
                 l++;
@@ -90,7 +90,7 @@ void s(int *a)
         }
         for(k=0;k<4;k++)
         {
-            if((temp[k]!=temp[k+1]&&temp[k]!=0)||k==4)
+            if((temp[k]!=temp[k+1]&&temp[k]!=0)||k==3)
             {
                 re[l]=temp[k];
                 l++;
@@ -133,7 +133,7 @@ void A(int *a)
         }
         for(k=0;k<4;k++)
         {
-            if((temp[k]!=temp[k+1]&&temp[k]!=0)||k==4)
+            if((temp[k]!=temp[k+1]&&temp[k]!=0)||k==3)
             {
                 re[l]=temp[k];
                 l++;
@@ -176,7 +176,7 @@ void d(int *a)
         }
         for(k=0;k<4;k++)
         {
-            if((temp[k]!=temp[k+1]&&temp[k]!=0)||k==4)
+            if((temp[k]!=temp[k+1]&&temp[k]!=0)||k==3)
             {
                 re[l]=temp[k];
                 l++;
